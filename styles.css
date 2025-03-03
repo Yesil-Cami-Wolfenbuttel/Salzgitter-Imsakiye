@@ -1,0 +1,113 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  color: #e0c17c;
+  font-size: 2.5em;
+}
+
+
+h2 {
+  color: #ffffff;
+  font-size: 1.9em;
+}
+
+.prayer-times div {
+  margin: 5px 0;
+  font-size: 1.0em;
+}
+
+body.dark-mode .prayer-times div {
+  color: #ffffff; /* Ensure text remains visible in Dark Mode */
+}
+
+body.dark-mode .container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+#map {
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-image: url('https://github.com/cihatsuel/Hintergrundbild/blob/main/background.jpg?raw=true');
+  background-size: contain; /* Sorgt dafür, dass das gesamte Bild sichtbar bleibt */
+  background-repeat: no-repeat;
+  background-position: center top; /* Zentriert das Bild oben */
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-size: contain; /* Verhindert das Zoomen auf Mobilgeräten */
+    background-attachment: scroll; /* Behebt Darstellungsprobleme auf mobilen Browsern */
+  }
+}
+
+.container {
+  background-color: #146e8ae6; /* Slight transparency */
+  padding: 2px;
+  border-radius: 0.5px;
+  border: 2px solid #ffffffe6; /* 2px dick, durchgezogener schwarzer Rand */
+}
+
+/* Adjust text color and font sizes */
+body {
+  color: #ffffff; /* General text color */
+}
+
+#countdown {
+  color: #e0c17c;
+  font-size: 2em; /* Larger font size for countdown */
+  font-weight: bold;
+  text-align: center; /* Centers the text */
+}
+
+#countdown div {
+  display: block; /* Forces block display to stack vertically */
+  margin-bottom: 10px; /* Adds some space between time and message */
+}
+
+
+.prayer-times div {
+  
+  font-size: 1.5em; /* Larger font size for prayer times */
+  margin: 10px 0;
+}
+
+/* Ensure the countdown styling is applied */
+body #countdown {
+  font-size: 2.0em !important; /* Larger font size */
+  font-weight: bold !important;
+}
+
+/* Adjustable font size for h3 elements */
+h3 {
+  text-decoration: underline;
+  font-size: 2.0em; /* Default size */
+  font-weight: bold;
+  color: #ffffff; /* Match the primary text color */
+}
+
+.container img {
+  width: 100%; /* Bild passt sich der Breite des Containers an */
+  height: auto; /* Höhe wird automatisch angepasst, um das Seitenverhältnis beizubehalten */
+}
